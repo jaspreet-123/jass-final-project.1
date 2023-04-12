@@ -1,0 +1,578 @@
+/*  MOBILE STYLES  */
+
+
+body {
+    background: rgb(243, 241, 241);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+h1, h2 {
+    padding-left: 20px;
+}
+
+header {
+    width: 100%;
+    background-color: #414040;
+}
+
+.nav button {
+    display: block;
+    background-color: #414040;
+    color: rgb(221, 187, 62);
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+}
+i.material-icons {
+
+    position: relative;
+    top: 8.5px;
+    left: 90px;
+    zoom: 1.4;
+}
+
+.nav button:hover {
+    background-color: #191919;
+    color: rgb(221, 187, 62);
+}
+
+.nav {
+    color: black;
+    float: center;
+    background-color: #414040;
+    width: 100%;
+    height: 450px;
+}
+.nav input[type="text"] {
+    border: none;
+    position: sticky;
+    left: 130px;
+    font-size: 17px;
+    padding: 8px;
+}
+
+.bnr-img{
+    width: 100%;
+    background-size: cover;
+}
+
+.bnr {
+    height: 350px;
+    position: relative;
+}
+
+.bnr-section {
+    background-color: rgba(0, 0, 0, 0.801);
+    position: absolute;
+    top: 20px;
+    height: 280px;
+
+
+}
+.bnr-title {
+    z-index: 99;
+    color : white;
+    text-align: left;
+    font-size: 38px;
+    position: absolute;
+    padding-left: 10px;
+}
+
+.bnr-description {
+    color : white;
+    text-align: left;
+    padding-left: 10px;
+    font-size: 14px;
+    position: relative;
+    top: 120px;
+}
+
+.bnr-btn {
+    z-index: 99;
+    background-color:rgb(221, 187, 62);
+    left: 10px;
+    position: relative;
+    top: 120px;
+    padding: 15px;
+    border: none;
+}
+
+.bnr-btn:hover {
+
+    background-color:rgb(255, 205, 3);
+}
+
+.about-us {
+
+
+    background-color: #ffdc7be6;
+    padding: 20px;
+}
+
+.services-btn {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: none;
+    padding: 30px;
+}
+.marketing-btn {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: none;
+    padding: 30px;
+}
+.video-production-btn {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: none;
+    padding: 30px;
+}
+.print-btn {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: none;
+    padding: 30px;
+}
+.web-development-btn {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: none;
+    padding: 30px;
+}
+.john-btn {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: none;
+    padding: 30px;
+}
+.bob-btn {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    border: none;
+    padding: 30px;
+}
+
+.about-us-img{
+    width: 100%;
+    background-size: cover;
+
+}
+.services-img {
+    width: 100%;
+    background-size: cover;
+}
+.marketing-img {
+    width: 100%;
+    background-size: cover;
+}
+.video-production-img {
+    width: 100%;
+    background-size: cover;
+}
+.web-development-img {
+    width: 100%;
+    background-size: cover;
+}
+.print-img {
+    width: 100%;
+    background-size: cover;
+}
+.john-img {
+    width: 100%;
+    background-size: cover;
+}
+.bob-img {
+    width: 100%;
+    background-size: cover;
+}
+
+.services{
+    background-color: #ffdc7be6;
+    margin: 20px;
+}
+.marketing {
+    background-color: #ffdc7be6;
+    margin: 20px;
+}
+.video-production {
+    background-color: #ffdc7be6;
+    margin: 20px;
+}
+.web-development {
+    background-color: #ffdc7be6;
+    margin: 20px;
+}
+.print {
+    background-color: #ffdc7be6;
+    margin: 20px;
+}
+.john {
+    background-color: #ffdc7be6;
+    margin: 20px;
+}
+.bob {
+    background-color: #ffdc7be6;
+    margin: 20px;
+}
+.about-us-h2 {
+    font-size: 32p32
+}
+.services-h2 {
+    font-size: 32px;
+}
+.marketing-h2 {
+    font-size: 32px;
+}
+.video-production-h2 {
+    font-size: 32px;
+}
+.web-development-h2 {
+    font-size: 32px;
+}
+.print-h2 {
+    font-size: 32px;
+}
+.john-h2 {
+    font-size: 32px;
+}
+.bob-h2 {
+    font-size: 32px;
+}
+
+.services-section {
+    padding: 25px;
+}
+.marketing-section {
+    padding: 25px;
+}
+.video-production-section {
+    padding: 25px;
+}
+.web-development-section {
+    padding: 25px;
+}
+.print-section {
+    padding: 25px;
+}
+.john-section {
+    padding: 25px;
+}
+.bob-section {
+    padding: 25px;
+}
+
+.our-vision {
+    overflow: hidden;
+    height: 300px;
+    width: 100%;
+}
+
+.our-vision-img {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
+.our-vision-title {
+    color : white;
+    text-align: left;
+    font-size: 38px;
+    position: relative;
+    bottom: 360px;
+    margin-left: 10px;
+}
+
+.our-vision-description {
+    color : white;
+    text-align: left;
+    font-size: 14px;
+    position: relative;
+    bottom: 360px;
+    margin-left: 10px;
+
+}
+
+.our-vision-btn {
+    background-color:rgba(36, 36, 36, 0.689);
+    color: white;
+    margin-left: 10px;
+    justify-content: center;
+    position: relative;
+    bottom: 300px;
+    padding: 20px;
+    border-color:rgb(221, 187, 62);
+}
+hr {
+    color:black; 
+
+    background-color:black; 
+    height:2px;
+}
+
+input[type=submit] {
+
+    background-color: #1b1c1c;
+    color: rgb(239, 209, 14);
+    padding: 12px 20px;
+    border: none;
+}
+
+
+
+.form input[type=text], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+
+
+table {
+    
+    font-family: sans-serif;
+    border: none;
+    width: 100%;
+}
+
+tr:nth-child(1) {
+
+    background-color: rgb(254, 237, 121);
+}
+  
+td, th {
+
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+
+.ftl-grid {
+    margin: 10px;
+}
+
+footer {
+    background-color:rgb(20, 20, 20);
+
+    color:rgb(221, 187, 62);
+    padding: 10px;
+}
+
+/* DESKTOP STYLES  */
+
+@media screen and (min-width: 1200px){
+    
+    h1 {
+        font-size: 54px;
+        padding-left: 50px;
+    }
+    h2 {
+        font-size: 48px;
+    }
+}
+
+@media screen and (min-width: 1200px){
+
+    .nav {
+        float: center;
+        background-color: #414040;
+        width: 70%;
+        height: 60px;
+        display: flex;
+        padding-left: 180px;
+    }
+    
+    .nav button {
+    
+        padding: 0.5em 0;
+        flex-wrap: wrap;
+        
+    }
+    
+    
+    .nav input[type="text"] {
+        border: none;
+        bottom: 10px;
+        font-size: 17px;
+        margin-top: 10px;
+        margin-right: -58px;
+        margin-left: 50px;
+    }
+    
+    i.material-icons {
+        zoom: 1.4;
+        margin-right: -40px;
+        margin-left: -49px;
+    }
+
+    .bnr {
+        height:830px;
+        position: relative;
+    }
+    
+    .bnr-img{
+        width: 100%;
+        height: 800px;
+        background-size: cover;
+    }
+    
+    .bnr-section {
+        background-color: rgba(0, 0, 0, 0.75);
+        position: absolute;
+        top: 80px;
+        height: 600px;
+        padding: 0px 20px;
+        margin: 0 20px;
+    }
+    
+    .bnr-title {
+        z-index: 99;
+        color : white;
+        text-align: left;
+        font-size: 72px;
+        position: absolute;
+        padding-left: 10px;
+        padding-top: 100px;
+    }
+    
+    .bnr-description {
+        color : white;
+        text-align: left;
+        padding-left: 10px;
+        font-size: 18px;
+        position: relative;
+        top: 250px;
+    }
+    
+    .bnr-btn {
+        left: 10px;
+        position: relative;
+        top: 320px;
+        padding: 15px;
+        border: none;
+    }
+    
+    .bnr-btn:hover {
+        background-color:rgb(255, 205, 3);
+    }
+
+    .about-us {
+        display: flex;
+    }
+
+    .about-1 {
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+
+    .about-2 {
+        padding: 50px;
+        padding-left: 10px;
+    }
+
+    .about-us-img {
+        height: 400px;
+        width:auto;
+        background-size: cover;
+        justify-content: center;
+    }
+
+    .services-grid {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .services-img, .marketing-img {
+        height: 450px;
+        width: 100%;
+    }
+
+    .video-production-img, .web-development-img, .print-img {
+        height: 300px;
+        width: 100%;
+    }
+
+
+    .services {
+        grid-area: 1 / 2 / 2 / 5;
+    }
+
+    .marketing {
+        grid-area: 1 / 5 / 2 / 8;
+    }
+
+    .video-production {
+        grid-area: 2 / 2 / 3 / 4;
+    }
+
+    .web-development {
+        grid-area: 2 / 4 / 3 / 6;
+    }
+
+    .print {
+        grid-area: 2 / 6 / 3 / 8;
+    }
+
+    .our-vision {
+        height: 500px;
+    }
+
+    .our-vision-img {
+        height: 500px;
+    }
+
+    .john, .bob {
+        display: flex;
+        margin: 0px 100px;
+    }
+    
+
+    .john-img {
+        flex-wrap: wrap;
+        height: auto;
+        width: 700px;
+    }
+
+    .bob-img {
+        flex-wrap: wrap;
+        height: auto;
+        width: 700px;
+        order: 2;
+    }
+
+    .bob-section {
+        order: 1;
+    }
+
+    .ftl-grid {
+        margin: 0px 100px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+   .form {
+    order: 1;
+    padding: 20px;
+   }
+
+   .location {
+    order: 2;
+    margin: 20px;
+   }
+
+   .table {
+    order: 3;
+    grid-column: 1 / span 2;
+    padding: 0 30px;
+   }
+
+}
